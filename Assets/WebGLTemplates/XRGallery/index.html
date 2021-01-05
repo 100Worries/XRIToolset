@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Page Info -->
+    <meta name="description" content="A WebGL based gallery of Cornish works accross multiple mediums presented by Cornish College of the Arts.">
+    <meta name="keywords" content="XR, Gallery, Cornish College of the Arts, Virtual, Seattle, Unity, Unity3D, WebGL, Cross-Reality, X-Reality">
+    <meta name="author" content="Developed by Dave McDowell, Commisioned by Cornish College of the Arts">
+    
+    <!-- Title of page -->
+    <title>%UNITY_WEB_NAME%</title>
+    
+    <!-- game instance and loader -->
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+    <script>var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});</script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <!-- Default Stylesheet -->
+    <link href="TemplateData/styles.css" rel="stylesheet">
+    
+    <!-- favicon -->  
+    <link rel="icon" href="TemplateData/favIcon.ico">
+</head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse fixed-top bg-inverse">
+               <a class="navbar-brand" href="http://www.cornish.edu/" target="_blank"><img src="TemplateData/cornishLogo.jpg" width="42" height="42" alt="cornish college of the arts official site" style="margin-right: 16px">%UNITY_CUSTOM_NAVBAR_TITLE%</a>
+        </nav>
+        
+        <!-- Content -->
+        <div class="gameContainer">
+            <!-- game window -->
+        </div>
+        
+        <!-- Loader -->
+        <div id="loadingBox">
+            <div id="bgBar"></div>
+            <div id="progressBar">
+                <img id="spinner" src="TemplateData/spinner.gif" style="display: none; margin: 0 auto" />
+            </div>
+            <p id="loadingInfo" class="noselect">Loading...</p>
+        </div>
+
+        <!-- Footer / Downloads -->
+        <footer class="footer">
+            <div class="container-fluid">
+               <!-- Link to Expo for the class -->
+               <a class="float-left text-muted" href=%UNITY_CUSTOM_EXPO_URL% target="_blank" alt=%UNITY_CUSTOM_EXPO_URL_ALT%>%UNITY_CUSTOM_EXPO_TITLE%</a>
+                <!-- comment out here to remove downloads option -->
+                <ul class="downloads list-inline">
+                    <li class="list-inline-item float-right"><a id="windows64-dl" class="text-muted" href="#" download="">Download standalone for Windows</a></li>
+                    <li class="list-inline-item float-right"><a id="macos64-dl" class="text-muted" href="#" download="">Download standalone for Mac</a></li>
+                    <li class="list-inline-item float-right"><a id="linux64-dl" class="text-muted" href="#" download="">Download standalone for Linux</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <!-- Scripts -->
+        <script>
+            function detectOS() 
+            {
+                if(navigator.platform == "Win32")
+                {
+                  document.getElementById("macos64-dl").style.display = "none";
+                  document.getElementById("linux64-dl").style.display = "none";
+                }
+
+                if(navigator.platform == "MacIntel") 
+                {
+                  document.getElementById("windows64-dl").style.display = "none";
+                  document.getElementById("linux64-dl").style.display = "none";
+                }
+
+                if(navigator.platform == "Linux i686") 
+                {
+                  document.getElementById("windows64-dl").style.display = "none";
+                  document.getElementById("macos64-dl").style.display = "none";
+                }
+                console.log(navigator.platform);
+            }
+            
+            detectOS();
+        </script>
+        
+        <!-- Page Scripts -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+        <script type="text/javascript" src="TemplateData/CSSPlugin.js"></script>
+    </body>
+</html>

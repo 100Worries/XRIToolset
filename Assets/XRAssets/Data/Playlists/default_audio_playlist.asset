@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1204107094, guid: 8892510be2f4dc140a23e036ec2874da, type: 3}
+  m_Name: default_audio_playlist
+  m_EditorClassIdentifier: 
+  playlistName: Gallery Music
+  playlistDescription: A playlist which contains all the music used in this gallery.
+    Use this audio player as an example of how to setup your own and get people listening
+    to your work in a digital environment!
+  playlistCover: {fileID: 0}
+  audioList:
+  - trackInfo:
+      useAsURL: 0
+      title: Nodens Field
+      artistName: Axton Crolley
+      genre: Digital Music
+      year: 2017
+      description: The track used in this galleries pause menu, it was found on Freesound
+        and creadit goes out to Axton Crolley for such a lovely composition.
+    trackClip: {fileID: 8300000, guid: 0625b0d9c22974b0c8d12c757c3e1400, type: 3}
+  - trackInfo:
+      useAsURL: 0
+      title: Peaceful Break
+      artistName: Fool Boy Media
+      genre: Digital
+      year: 2017
+      description: Another great Freesound find used in the main menu of the gallery.
+        Credit goes to Fool Boy Media for this track that was an instant download
+        when it was found!
+    trackClip: {fileID: 8300000, guid: 98372c769df5846a4971fff367e52034, type: 3}

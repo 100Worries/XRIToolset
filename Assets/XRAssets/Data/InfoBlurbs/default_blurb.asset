@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1431683121, guid: 8892510be2f4dc140a23e036ec2874da, type: 3}
+  m_Name: default_blurb
+  m_EditorClassIdentifier: 
+  title: Girl with a Pearl Earring
+  artistName: Johannes Vermeer
+  medium: Oil on canvas
+  auxilliaryInfo: "1\u2032 6\u2033 x 1\u2032 3\u2033, 1665"
+  description: Girl with a Pearl Earring is an oil painting by Dutch Golden Age painter
+    Johannes Vermeer. It is a tronie of a girl wearing a headscarf and a pearl earring.
+    The painting has been in the collection of the Mauritshuis in The Hague since
+    1902. - Wikipedia

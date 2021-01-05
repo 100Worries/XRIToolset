@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1431683121, guid: 8892510be2f4dc140a23e036ec2874da, type: 3}
+  m_Name: hall_rise_blurb
+  m_EditorClassIdentifier: 
+  title: Rise
+  artistName: Erik Hall
+  medium: 3D Art & Animation
+  auxilliaryInfo: HoloLens Expo 2016
+  description: An Adaptable Living Unit, is a project that aims to find solutions
+    for people living in impoverished coastal slums of Bangladesh, India. The area
+    faces constant flooding, and monsoons and Rise seeks to develop a system that
+    adapts to the flux of water levels and keeps its inhabitants safe and dry. Rise
+    also aims to improve general living conditions for those living in slum communities
+    by providing a living unit with proper plumbing, electricity, and sleeping components,
+    all sustainable and self-sufficient within the unit.

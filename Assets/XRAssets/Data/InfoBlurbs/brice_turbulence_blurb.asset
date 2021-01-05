@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1431683121, guid: 8892510be2f4dc140a23e036ec2874da, type: 3}
+  m_Name: brice_turbulence_blurb
+  m_EditorClassIdentifier: 
+  title: Turbulence
+  artistName: Jeff Brice
+  medium: 3D Art & Animation
+  auxilliaryInfo: HoloLens Expo 2016
+  description: "Turbulence is an experimental diagrammatic drawing and notation systems.
+    The ability to see turbulence animated as a \u201Cholographic\u201D object gives
+    a true insight into the complex movements in time and space of natural systems.
+    Using 3D software, particles are emitted into a volume and affected by a computationally
+    driven turbulent field. The trajectories of the particles are meshed into polygon
+    objects and given material properties such as color and reflection."

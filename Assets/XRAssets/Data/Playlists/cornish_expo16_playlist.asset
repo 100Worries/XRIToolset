@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1137019740, guid: 8892510be2f4dc140a23e036ec2874da, type: 3}
+  m_Name: cornish_expo16_playlist
+  m_EditorClassIdentifier: 
+  playlistName: BFA Expo 2016 Video Reel
+  playlistDescription: Highlights from the BFA 2016 Hololens Exhibit. Showing the
+    360 recordings shown during the event.
+  videoList:
+  - videoInfo:
+      videoURL: http://www.dcmcdowell.com/videos/Apparel_Fashion.mp4
+      videoDuration: 138
+      title: Apparel Show
+      artistName: Natalia Montalvo, Yoojin Beag, Ciprian Oritz
+      genre: Fashion
+      year: 2016
+      description: 
+  - videoInfo:
+      videoURL: http://www.dcmcdowell.com/videos/Core_KeepAway.mp4
+      videoDuration: 190.2
+      title: Keep Away
+      artistName: Warren Haney, Spencer Funk, Nicholas Vogl
+      genre: Theater
+      year: 2016
+      description: 
+  - videoInfo:
+      videoURL: http://www.dcmcdowell.com/videos/Kusanagi_ElectricLiquid.mp4
+      videoDuration: 133.8
+      title: Electric Liquid
+      artistName: Juju Kusanagi
+      genre: Dance
+      year: 2016
+      description: 
+  - videoInfo:
+      videoURL: http://www.dcmcdowell.com/videos/Rice_Scuff.mp4
+      videoDuration: 37
+      title: Scuff
+      artistName: Bobby Rice
+      genre: Fashion
+      year: 2016
+      description: 
+  - videoInfo:
+      videoURL: http://www.dcmcdowell.com/videos/Sweeney_OpenBox.mp4
+      videoDuration: 78.6
+      title: Open/Box
+      artistName: Marcella Sweeney
+      genre: Dance
+      year: 2016
+      description: 

@@ -1,0 +1,57 @@
+****************XRIToolset: 2018.1 - Acacia********************************************
+Purpose: Changelog for version 2018.1
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+****************©Copyright 100 Worries, All Rights Reserved*****************************
+## [Released]
+- (Acacia) www.dcmcdowell.com/100Worries/XRI/xri2018.1.unitypackage
+
+## [2018.1, Acaci] - 2018-04-08
+### Added
+- versioning system with client / server checking
+- support ticketing for bug submission **via xri.help@gmail.com**
+- created .dll structure for XRIToolsetCore managed .dll
+- created .dll structure for XRIToolsetEditor  managed .dll
+- created preference section for XRI Toolset
+- added debug output and collection
+- added analytic output and collection for interactive props **only framework for now, no data output
+- added bug submission wizard
+- added update framework and autoupdate options
+- added XRI output for debug/analytics folder in document or user override folder
+- added editor output to Props using any scriptable objects for data such as PropVideoPlayer, PropDisplayFrame, etc...
+- night textures for city skyline
+- models for generic furniture in gallery example scene
+- example display frame object **Girl with a Pearl Earring**
+- progress slider in pause menu
+- volume sliders for audio and video players
+- video player UI and UI options
+- loop and shuffle toggles for audio and video players
+- option to Player input options to disallow Mark/Recall feature
+- ui_theme scriptable object and wizard for global ui theming **work in progress, not fully implemented**
+- added random day and night sounds to SoundManager
+- added PropCommentary interactive prop type
+
+### Changed
+- XRIRelease versioning
+- smaller footprint in project from folder restructuring and loading path changes
+- ui icon theme change
+- changes to class, method and accessors/mutator naming conventions to align with 'XRIToolset'
+- vr device detection/configuration and console output **experimental** just detects which device is connected to the system
+- implemented .dll structure for XRIToolsetCore
+- implemented .dll structure for XRIToolsetEditor
+- 360 video playback for PropVideoPlayer
+- scene creation now offers a blank scene or a example gallery
+- example gallery has visual and aesthetic changes
+- changed PropVideoPlayer & PropAudioPlayer to play a single track from a playlist via 'PlayAtIndex' index and bool options
+
+### fixed
+- ui tweaks and fixes
+- general stability and bug fixes
+- loading feedback for url video playback
+
+### Removed
+- source code access ** source is seperate from unity project **
